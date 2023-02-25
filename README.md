@@ -4,7 +4,6 @@ This plugin provides the same function as Dinnerbone's coordinate tools .
 
 It simply displays the region file, which stores the map data for the specified location or where you're standing along with its chunks and blocks coverage.
 
-Placeholder: PAPI-CoordinateTool (which is available via ecloud) 
 NOTE: PAPI expansion is already included in this plugin and you no longer need to install PAPI-CoordinateTool expansion separately. 
 
 >ctool -343 53675
@@ -14,8 +13,17 @@ Commands:
 /ctool [x] [z] : displays the filename of the region data for the specified (x, z) location or where you're standing.
 /ctool reload : reloads the config
 
-Permissions:
+### Permissions:
 coodinatetool : allows you to use reload command
 
-Installation: 
+### Installation: 
 Simply drop CoordinateTool.jar in your plugins folder.
+
+### Placeholders:
+
+ * %coordinatetool_file% : regionfile of the chunk you're currently standing 
+ * %coordiantetool_chunk% : current chunk
+ * %coordiantetool_min_chunk% : minmumchunk
+ * %coordiantetool_max_chunk% : maximumchunk
+ * %coordiantetool_min_block% : minimumblock
+ * %coordiantetool_max_block% : maximumblock
