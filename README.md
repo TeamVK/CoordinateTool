@@ -19,7 +19,7 @@ coodinatetool : allows you to use reload command
 ### Installation: 
 Simply drop CoordinateTool.jar in your plugins folder.
 
-### Placeholders:
+### Placeholders (for PlaceholderAPI plugin):
 
  * %coordinatetool_file% : regionfile of the chunk you're currently standing 
  * %coordiantetool_chunk% : current chunk
